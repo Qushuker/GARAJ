@@ -22,12 +22,13 @@ using Abp.Timing;
 using Abp.UI;
 using Abp.Web.Models;
 using Abp.Zero.Configuration;
-using GARAJ.Authorization;
-using GARAJ.Authorization.Users;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.Authorization.Users;
+using GARAJ.Abp.Identity;
+using GARAJ.Abp.MultiTenancy;
+using GARAJ.Abp.Sessions;
 using GARAJ.Controllers;
 using GARAJ.Identity;
-using GARAJ.MultiTenancy;
-using GARAJ.Sessions;
 using GARAJ.Web.Models.Account;
 using GARAJ.Web.Views.Shared.Components.TenantChange;
 
@@ -170,7 +171,7 @@ namespace GARAJ.Web.Controllers
                     }
 
                     model.UserName = model.EmailAddress;
-                    model.Password = Authorization.Users.User.CreateRandomPassword();
+                    model.Password = Abp.Authorization.Users.User.CreateRandomPassword();
                 }
                 else
                 {

@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Abp.Application.Services.Dto;
 using Abp.AspNetCore.Mvc.Authorization;
-using GARAJ.Authorization;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.MultiTenancy;
 using GARAJ.Controllers;
-using GARAJ.MultiTenancy;
 
 namespace GARAJ.Web.Controllers
 {

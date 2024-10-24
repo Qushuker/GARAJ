@@ -1,6 +1,6 @@
 ﻿@using Abp.Authorization.Users
 @using Abp.MultiTenancy
-@using GARAJ.MultiTenancy
+@using GARAJ.Abp.MultiTenancy
 @using GARAJ.Web.Models.Common.Modals
 @{
     Layout = null;
@@ -45,7 +45,7 @@
                         <div class="col-md-3">
                         </div>
                         <div class="col-md-9">
-                            <p>@L("DefaultPasswordIs", GARAJ.Authorization.Users.User.DefaultPassword)</p>
+                            <p>@L("DefaultPasswordIs", GARAJ.Abp.Authorization.Users.User.DefaultPassword)</p>
                         </div>
                     </div>
                 </div>

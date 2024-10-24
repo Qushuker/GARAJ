@@ -1,4 +1,4 @@
-﻿using GARAJ.Sessions.Dto;
+﻿using GARAJ.Abp.Sessions.Dto;
 
 namespace GARAJ.Web.Views.Shared.Components.SideBarUserArea
 {

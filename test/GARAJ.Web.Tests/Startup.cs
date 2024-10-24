@@ -9,6 +9,7 @@ using GARAJ.Identity;
 using GARAJ.Web.Resources;
 using GARAJ.Web.Startup;
 using Castle.MicroKernel.Registration;
+using GARAJ.Abp.Identity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;

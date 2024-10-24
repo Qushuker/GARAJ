@@ -1,8 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using GARAJ.Abp.Configuration;
+using GARAJ.Abp.Web;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
-using GARAJ.Configuration;
-using GARAJ.Web;
 
 namespace GARAJ.EntityFrameworkCore
 {

@@ -1,4 +1,4 @@
-﻿using GARAJ.Debugging;
+﻿using GARAJ.Abp.Debugging;
 
 namespace GARAJ
 {

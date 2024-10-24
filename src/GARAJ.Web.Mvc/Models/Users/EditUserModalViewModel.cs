@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
-using GARAJ.Roles.Dto;
-using GARAJ.Users.Dto;
+using GARAJ.Abp.Roles.Dto;
+using GARAJ.Abp.Users.Dto;
 
 namespace GARAJ.Web.Models.Users
 {

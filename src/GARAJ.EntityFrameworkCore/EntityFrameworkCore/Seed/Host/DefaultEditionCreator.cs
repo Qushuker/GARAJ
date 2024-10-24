@@ -2,7 +2,7 @@ using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Abp.Application.Editions;
 using Abp.Application.Features;
-using GARAJ.Editions;
+using GARAJ.Abp.Editions;
 
 namespace GARAJ.EntityFrameworkCore.Seed.Host
 {

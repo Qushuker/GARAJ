@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Abp.ObjectMapping;
-using GARAJ.Sessions;
+using GARAJ.Abp.Sessions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GARAJ.Web.Views.Shared.Components.TenantChange

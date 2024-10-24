@@ -5,12 +5,12 @@ using Abp.Runtime.Security;
 using Abp.Timing;
 using Abp.Zero;
 using Abp.Zero.Configuration;
-using GARAJ.Authorization.Roles;
-using GARAJ.Authorization.Users;
-using GARAJ.Configuration;
-using GARAJ.Localization;
-using GARAJ.MultiTenancy;
-using GARAJ.Timing;
+using GARAJ.Abp.Authorization.Roles;
+using GARAJ.Abp.Authorization.Users;
+using GARAJ.Abp.Configuration;
+using GARAJ.Abp.Localization;
+using GARAJ.Abp.MultiTenancy;
+using GARAJ.Abp.Timing;
 
 namespace GARAJ
 {

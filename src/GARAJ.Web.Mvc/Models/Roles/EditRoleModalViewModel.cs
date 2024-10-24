@@ -1,5 +1,5 @@
 ﻿using Abp.AutoMapper;
-using GARAJ.Roles.Dto;
+using GARAJ.Abp.Roles.Dto;
 using GARAJ.Web.Models.Common;
 
 namespace GARAJ.Web.Models.Roles

@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using GARAJ.Roles.Dto;
+using GARAJ.Abp.Roles.Dto;
 
 namespace GARAJ.Web.Models.Users
 {

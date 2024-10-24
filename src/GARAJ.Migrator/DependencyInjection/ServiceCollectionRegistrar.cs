@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Castle.Windsor.MsDependencyInjection;
 using Abp.Dependency;
-using GARAJ.Identity;
+using GARAJ.Abp.Identity;
 
 namespace GARAJ.Migrator.DependencyInjection
 {

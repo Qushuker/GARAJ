@@ -8,9 +8,9 @@ using Abp.Domain.Uow;
 using Abp.Extensions;
 using Abp.MultiTenancy;
 using Abp.Runtime.Security;
+using GARAJ.Abp.MultiTenancy;
 using GARAJ.EntityFrameworkCore;
 using GARAJ.EntityFrameworkCore.Seed;
-using GARAJ.MultiTenancy;
 
 namespace GARAJ.Migrator
 {

@@ -9,11 +9,11 @@ using Abp.Authorization;
 using Abp.Authorization.Users;
 using Abp.MultiTenancy;
 using Abp.Runtime.Security;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.Authorization.Users;
+using GARAJ.Abp.MultiTenancy;
 using GARAJ.Authentication.JwtBearer;
-using GARAJ.Authorization;
-using GARAJ.Authorization.Users;
 using GARAJ.Models.TokenAuth;
-using GARAJ.MultiTenancy;
 
 namespace GARAJ.Controllers
 {

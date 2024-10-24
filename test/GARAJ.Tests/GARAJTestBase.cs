@@ -9,11 +9,11 @@ using Abp.Events.Bus.Entities;
 using Abp.MultiTenancy;
 using Abp.Runtime.Session;
 using Abp.TestBase;
-using GARAJ.Authorization.Users;
+using GARAJ.Abp.Authorization.Users;
+using GARAJ.Abp.MultiTenancy;
 using GARAJ.EntityFrameworkCore;
 using GARAJ.EntityFrameworkCore.Seed.Host;
 using GARAJ.EntityFrameworkCore.Seed.Tenants;
-using GARAJ.MultiTenancy;
 
 namespace GARAJ.Tests
 {

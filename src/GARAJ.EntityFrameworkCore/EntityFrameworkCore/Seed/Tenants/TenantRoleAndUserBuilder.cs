@@ -6,9 +6,9 @@ using Abp.Authorization;
 using Abp.Authorization.Roles;
 using Abp.Authorization.Users;
 using Abp.MultiTenancy;
-using GARAJ.Authorization;
-using GARAJ.Authorization.Roles;
-using GARAJ.Authorization.Users;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.Authorization.Roles;
+using GARAJ.Abp.Authorization.Users;
 
 namespace GARAJ.EntityFrameworkCore.Seed.Tenants
 {

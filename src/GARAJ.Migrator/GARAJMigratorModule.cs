@@ -3,7 +3,7 @@ using Castle.MicroKernel.Registration;
 using Abp.Events.Bus;
 using Abp.Modules;
 using Abp.Reflection.Extensions;
-using GARAJ.Configuration;
+using GARAJ.Abp.Configuration;
 using GARAJ.EntityFrameworkCore;
 using GARAJ.Migrator.DependencyInjection;
 

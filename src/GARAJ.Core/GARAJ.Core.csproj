@@ -12,11 +12,25 @@
     <RootNamespace>GARAJ</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-es.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-fa.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-fr.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-it.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-ja.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-lt.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-nl.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-pt-BR.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-tr.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ-zh-Hans.xml" />
+    <EmbeddedResource Include="Abp\Localization\SourceFiles\GARAJ.xml" />
     <EmbeddedResource Include="Localization\SourceFiles\*.xml" Exclude="bin\**;obj\**;**\*.xproj;packages\**;@(EmbeddedResource)" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Abp.AutoMapper" Version="9.4.1" />
     <PackageReference Include="Abp.ZeroCore.EntityFrameworkCore" Version="9.4.1" />
     <PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="4.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abp\" />
   </ItemGroup>
 </Project>

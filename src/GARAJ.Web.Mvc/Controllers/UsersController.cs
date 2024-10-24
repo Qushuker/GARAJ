@@ -2,14 +2,14 @@
 using Microsoft.AspNetCore.Mvc;
 using Abp.Application.Services.Dto;
 using Abp.AspNetCore.Mvc.Authorization;
-using GARAJ.Authorization;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.Users;
 using GARAJ.Controllers;
-using GARAJ.Users;
 using GARAJ.Web.Models.Users;
 
 namespace GARAJ.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Pages_Building)]
     public class UsersController : GARAJControllerBase
     {
         private readonly IUserAppService _userAppService;

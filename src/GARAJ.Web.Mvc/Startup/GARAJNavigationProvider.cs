@@ -1,7 +1,7 @@
 ﻿using Abp.Application.Navigation;
 using Abp.Authorization;
 using Abp.Localization;
-using GARAJ.Authorization;
+using GARAJ.Abp.Authorization;
 
 namespace GARAJ.Web.Startup
 {
@@ -43,7 +43,7 @@ namespace GARAJ.Web.Startup
                         L("Users"),
                         url: "Users",
                         icon: "fas fa-users",
-                        permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Users)
+                        permissionDependency: new SimplePermissionDependency(PermissionNames.Pages_Building)
                     )
                 ).AddItem(
                     new MenuItemDefinition(

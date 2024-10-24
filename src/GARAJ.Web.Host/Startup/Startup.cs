@@ -17,6 +17,7 @@ using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.IO;
+using GARAJ.Abp.Identity;
 
 namespace GARAJ.Web.Host.Startup
 {

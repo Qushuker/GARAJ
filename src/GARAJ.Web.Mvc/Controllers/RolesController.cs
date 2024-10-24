@@ -2,9 +2,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Abp.Application.Services.Dto;
 using Abp.AspNetCore.Mvc.Authorization;
-using GARAJ.Authorization;
+using GARAJ.Abp.Authorization;
+using GARAJ.Abp.Roles;
 using GARAJ.Controllers;
-using GARAJ.Roles;
 using GARAJ.Web.Models.Roles;
 
 namespace GARAJ.Web.Controllers

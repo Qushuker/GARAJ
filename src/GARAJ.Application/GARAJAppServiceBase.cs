@@ -4,8 +4,8 @@ using Microsoft.AspNetCore.Identity;
 using Abp.Application.Services;
 using Abp.IdentityFramework;
 using Abp.Runtime.Session;
-using GARAJ.Authorization.Users;
-using GARAJ.MultiTenancy;
+using GARAJ.Abp.Authorization.Users;
+using GARAJ.Abp.MultiTenancy;
 
 namespace GARAJ
 {

@@ -15,6 +15,7 @@ using GARAJ.Configuration;
 using GARAJ.Identity;
 using GARAJ.Web.Resources;
 using Abp.AspNetCore.SignalR.Hubs;
+using GARAJ.Abp.Identity;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.WebEncoders;
 

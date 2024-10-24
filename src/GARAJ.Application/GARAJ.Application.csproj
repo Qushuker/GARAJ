@@ -14,4 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\GARAJ.Core\GARAJ.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abp\" />
+  </ItemGroup>
 </Project>

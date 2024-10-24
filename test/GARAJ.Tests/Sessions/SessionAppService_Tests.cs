@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
+using GARAJ.Abp.Sessions;
 using Shouldly;
 using Xunit;
-using GARAJ.Sessions;
 
 namespace GARAJ.Tests.Sessions
 {

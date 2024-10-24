@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Shouldly;
 using Xunit;
 using Abp.Application.Services.Dto;
-using GARAJ.Users;
-using GARAJ.Users.Dto;
+using GARAJ.Abp.Users;
+using GARAJ.Abp.Users.Dto;
 
 namespace GARAJ.Tests.Users
 {

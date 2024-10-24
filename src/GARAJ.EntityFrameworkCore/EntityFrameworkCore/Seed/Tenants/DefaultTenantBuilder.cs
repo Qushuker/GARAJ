@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Abp.MultiTenancy;
-using GARAJ.Editions;
-using GARAJ.MultiTenancy;
+using GARAJ.Abp.Editions;
+using GARAJ.Abp.MultiTenancy;
 
 namespace GARAJ.EntityFrameworkCore.Seed.Tenants
 {

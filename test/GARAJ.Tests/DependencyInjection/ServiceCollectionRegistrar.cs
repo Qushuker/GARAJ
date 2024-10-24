@@ -4,8 +4,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor.MsDependencyInjection;
 using Abp.Dependency;
+using GARAJ.Abp.Identity;
 using GARAJ.EntityFrameworkCore;
-using GARAJ.Identity;
 
 namespace GARAJ.Tests.DependencyInjection
 {

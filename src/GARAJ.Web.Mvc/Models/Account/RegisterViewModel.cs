@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Abp.Auditing;
 using Abp.Authorization.Users;
 using Abp.Extensions;
-using GARAJ.Validation;
+using GARAJ.Abp.Validation;
 
 namespace GARAJ.Web.Models.Account
 {
