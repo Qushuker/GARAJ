@@ -59,7 +59,7 @@ public class BuildingAppService : ApplicationService, IBuildingAppService
     public async Task<BuildingDto> CreateAsync(BuildingCreateInput input)
     {
         Building building = await _buildingDomainService.CreateAsync(input);
-
+        
         return ObjectMapper.Map<BuildingDto>(building);
     }
 

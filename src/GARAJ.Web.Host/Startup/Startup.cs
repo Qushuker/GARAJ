@@ -17,10 +17,17 @@ using Abp.AspNetCore.SignalR.Hubs;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.IO;
+using System.Text.Json;
 using GARAJ.Abp.Identity;
 
 namespace GARAJ.Web.Host.Startup
 {
+    public class AdminSettings
+    {
+        public string Login { get; set; }
+        public string Password { get; set; }
+    }
+    
     public class Startup
     {
         private const string _defaultCorsPolicyName = "localhost";

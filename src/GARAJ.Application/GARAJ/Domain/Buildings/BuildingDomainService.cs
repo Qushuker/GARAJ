@@ -5,7 +5,6 @@ using Abp.Domain.Entities;
 using Abp.Domain.Repositories;
 using Abp.Domain.Services;
 using Abp.Domain.Uow;
-using Abp.EntityFrameworkCore.Repositories;
 using GARAJ.GARAJ.Domain.Buildings.Input;
 using GARAJ.GARAJ.Entities;
 using Microsoft.EntityFrameworkCore;
@@ -42,12 +41,12 @@ public class BuildingDomainService : DomainService, IBuildingDomainService
         Building building = await _buildingRepository
             .Query(e => e.Where(o => o.Id == input.Id))
             .FirstOrDefaultAsync();
-        
+
         if (building == null)
             throw new EntityNotFoundException();
-        
+
         ObjectMapper.Map(input, building);
-        
+
         return building;
     }
 

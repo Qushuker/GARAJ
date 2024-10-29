@@ -11,6 +11,7 @@ namespace GARAJ.EntityFrameworkCore
     {
         /* Define a DbSet for each entity of the application */
         public DbSet<Building> Buildings { get; set; }
+        public DbSet<PhysicalAddress> PhysicalAddresses { get; set; }
         
         public GARAJDbContext(DbContextOptions<GARAJDbContext> options)
             : base(options)

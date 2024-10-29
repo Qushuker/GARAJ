@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities;
 
 namespace GARAJ.GARAJ.Entities;
@@ -7,9 +8,17 @@ public class Building : Entity<Guid>
 {
     #region Address
 
-    public string City { get; set; }
-    public string Street { get; set; }
-    public string BuildingNumber { get; set; }
+    [ForeignKey(nameof(PhysicalAddress))]
+    public Guid PhysicalAddressId { get; set; }
+
+    public PhysicalAddress PhysicalAddress { get; set; }
+
+    #endregion
+
+
+    #region General
+
+    public string Name { get; set; }
 
     #endregion
 
