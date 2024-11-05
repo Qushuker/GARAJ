@@ -1,10 +1,11 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Domain.Entities;
 
 namespace GARAJ.GARAJ.Entities;
 
-public class Building : Entity<Guid>
+public class Parking : Entity<Guid>
 {
     #region Relations
 
@@ -13,21 +14,7 @@ public class Building : Entity<Guid>
 
     public PhysicalAddress PhysicalAddress { get; set; }
 
-    #endregion
-
-
-    #region General
-
-    public string Name { get; set; }
-
-    #endregion
-
-
-    #region Description
-
-    public int Levels { get; set; }
-    public int PeopleCount { get; set; }
-    public int FlatsCount { get; set; }
-
+    public ICollection<ParkingLot> ParkingLots { get; set; }
+    
     #endregion
 }

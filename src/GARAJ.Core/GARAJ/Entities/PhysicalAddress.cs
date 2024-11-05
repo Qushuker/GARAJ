@@ -11,6 +11,10 @@ public class PhysicalAddress : Entity<Guid>
     [ForeignKey(nameof(Building))]
     public Guid? BuildingId { get; set; }
     public Building Building { get; set; }
+    
+    [ForeignKey(nameof(Parking))]
+    public Guid? ParkingId { get; set; }
+    public Parking Parking { get; set; }
 
     #endregion
     
