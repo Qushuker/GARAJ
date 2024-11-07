@@ -1,12 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using Abp.Authorization.Users;
 using Abp.Extensions;
+using GARAJ.GARAJ.Entities;
 
 namespace GARAJ.Abp.Authorization.Users
 {
     public class User : AbpUser<User>
-    {
+    {   
+        
+        [ForeignKey(nameof(TransportProfile))]
+        public Guid TransportProfileId { get; set; }
+        public TransportProfile TransportProfile { get; set; }
+        
         public const string DefaultPassword = "123qwe";
 
         public static string CreateRandomPassword()
